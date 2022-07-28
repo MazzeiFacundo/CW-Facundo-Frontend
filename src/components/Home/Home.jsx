@@ -31,7 +31,7 @@ function Home() {
             <div className="interfaceContainer">
                 <h2>Facundo Mazzei</h2>
                 <div className="inputContainer">
-                    <input value={input} onChange={(e) => handleChange(e)} id="invertInput" className="input" placeholder="Escribe allgo para invertirlo!"></input>
+                    <input value={input} onChange={(e) => handleChange(e)} id="invertInput" className="input" placeholder="Escribe algo para invertirlo!"></input>
                     <button id="invertButton" onClick={(e) => handleClick(e)} className="searchButton">Invertir texto</button>
                 </div>
             </div>
