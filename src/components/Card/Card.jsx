@@ -6,14 +6,14 @@ function Card({ invertedText, palindrome, oldText }) {
         return (
             <div className="cardContainer">
                 <h3>
-                {palindrome === true ? `${oldText} invertido es: ${invertedText} y es un palindromo`:
-                 `${oldText} invertido es: ${invertedText} y no es un palindromo`}</h3>
+                {palindrome === true ? `${oldText} inverted is: ${invertedText} and it is a palindrome`:
+                 `${oldText} inverted is: ${invertedText} and it´s not a palindrome`}</h3>
             </div>
         );
     } else {
         return (
             <div className="cardContainer">
-                <h3>Escribe una palabra para invertirla!</h3>
+                <h3>Write something to invert it!</h3>
             </div>
         );
     }
